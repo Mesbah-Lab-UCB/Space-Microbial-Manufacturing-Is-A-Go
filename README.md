@@ -24,7 +24,9 @@ Installation on a "normal" computer should require approximately 1 hour.
 ## Demo
 There are a total of four `.ipynb` files, each corresponding to a unique combination of growth/titer and before/after transfer learning.
 
-To run the data, go to the corresponding main file (i.e. `main_growth.ipynb`) and click "Run all".
+To generate the confidence intervals, go to the corresponding main file (i.e. `main_growth.ipynb`) and click "Run all" for each combination of growth/titer and before/after transfer learning.
+
+To obtain Figure 4B in the manuscript, click "Run all" in `visualization.ipynb`.
 
 The expected output is a plot that shows the predicted 95% confidence interval of the model and the corresponding flight data.
 
